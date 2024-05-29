@@ -19,7 +19,6 @@ document.getElementById('qr-form').addEventListener('submit', function(e) {
         qrCode.appendChild(img);
 
         const downloadBtn = document.getElementById('download-btn');
-        downloadBtn.style.display = 'block';
         downloadBtn.onclick = function() {
             const a = document.createElement('a');
             a.href = img.src;
