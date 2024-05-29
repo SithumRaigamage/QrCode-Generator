@@ -16,7 +16,8 @@ body{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    height: 50vh;
+    height: 80vh;
+    
 }
 
 input{
@@ -26,7 +27,7 @@ input{
     border: 1px solid #ccc;
     border-radius: 15px;
 }
-button{
+.generate{
     padding: 10px 20px;
     border: none;
     border-radius: 15px;
@@ -39,4 +40,15 @@ button:hover{
 }
 #qr-code{
     margin-top: 20px;
+}
+#download-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
 }
